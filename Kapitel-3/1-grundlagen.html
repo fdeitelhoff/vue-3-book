@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Vue-Grundlagen</title>
+    <meta name="description" content="Das Vue-3-Buch">
+    <meta name="author" content="Dr. Fabian Deitelhoff">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  </head>
+
+  <body>
+    Ein wenig Inhalt als einfacher Test...
+
+    <!-- HTML-Element (div) zum Mounten der App. -->
+    <div id="first-app">
+      <div>{{ info }}</div>
+    </div>
+
+    <!-- Die Referenz auf die Vue-Bibliothek. -->
+    <script src="https://unpkg.com/vue@next"></script>
+    
+    <!-- Das Script-Element für die erste Vue-App. -->
+    <script>
+      const FirstVueApp = {
+        data() {
+          return {
+            info: 'Inhalt aus der Vue- Instanz...'
+          }
+        }
+      }
+
+      Vue.createApp(FirstVueApp).mount('#first-app')
+    </script>
+  </body>
+</html>

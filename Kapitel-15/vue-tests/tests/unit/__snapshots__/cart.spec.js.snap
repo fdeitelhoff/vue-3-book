@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart.vue renders the Cart.vue component correctly 1`] = `
+<div>
+  
+  <div>
+    <h4
+      class="header-cart"
+    >
+      Ihr Warenkorb
+    </h4>
+  </div>
+  <div>
+    
+    <div>
+      <span
+        style="margin-right: 10px;"
+      >
+        Artikel 1
+      </span>
+      <span
+        style="margin-right: 10px;"
+      >
+        Anzahl: 3
+      </span>
+      <span
+        style="margin-right: 10px;"
+      >
+        Gesamt: 3
+      </span>
+      <span>
+        Kosten: 3 EUR
+      </span>
+      <div>
+        <button>
+          +
+        </button>
+        <button>
+          -
+        </button>
+      </div>
+    </div>
+    <div>
+      <span
+        style="margin-right: 10px;"
+      >
+        Artikel 2
+      </span>
+      <span
+        style="margin-right: 10px;"
+      >
+        Anzahl: 4
+      </span>
+      <span
+        style="margin-right: 10px;"
+      >
+        Gesamt: 4
+      </span>
+      <span>
+        Kosten: 8 EUR
+      </span>
+      <div>
+        <button>
+          +
+        </button>
+        <button>
+          -
+        </button>
+      </div>
+    </div>
+    
+    <p>
+      <span
+        data-testid="finalPrice"
+      >
+        Gesamtpreis: 11 EUR
+      </span>
+    </p>
+    <p>
+      <p>
+         Ihr eingegebener Gutschein ist: 
+      </p>
+      <label
+        for="coupon"
+      >
+        Gutschein:
+      </label>
+      <input
+        id="coupon"
+        name="coupon"
+      />
+    </p>
+  </div>
+  
+</div>
+`;
